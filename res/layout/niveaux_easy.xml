@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/easy"
+    android:layout_height="match_parent" >
+    
+<TextView 
+    android:id="@+id/Easy"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/Easy"
+    android:textSize="70sp"
+    android:textStyle="bold"
+    android:textColor="#0be220"
+    />
+
+<Button
+    android:id="@+id/Bouton_g1"
+    android:layout_below="@id/Easy"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/G1"
+    android:background="#0be220"
+    android:onClick="onClick1"
+    />
+
+<Button
+    android:id="@+id/Bouton_g2"
+    android:layout_below="@id/Easy"
+    android:layout_toRightOf="@id/Bouton_g1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/G2"
+    android:background="#0be220"
+    android:onClick="onClick1" />
+
+<Button
+    android:id="@+id/Bouton_g3"
+    android:layout_below="@id/Easy"
+    android:layout_toRightOf="@id/Bouton_g2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/G3"
+    android:background="#0be220"
+    android:onClick="onClick1" />
+
+<Button
+    android:id="@+id/Bouton_Return"
+    android:layout_alignParentBottom="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Return"
+    android:onClick="onClickReturn"
+    />
+</RelativeLayout>

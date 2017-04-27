@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hard" >
+    
+    
+    <TextView 
+    android:id="@+id/Hard"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/Hard"
+    android:textSize="70sp"
+    android:textStyle="bold"
+    android:textColor="#ff0000"
+    />
+
+<Button
+    android:id="@+id/Bouton_gh1"
+    android:layout_below="@id/Hard"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/G1"
+    android:background="#ff0000"
+    android:onClick="onClick"
+    />
+
+<Button
+    android:id="@+id/Bouton_gh2"
+    android:layout_below="@id/Hard"
+    android:layout_toRightOf="@id/Bouton_gh1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/G2"
+    android:background="#ff0000"
+    android:onClick="onClick"
+    />
+
+<Button
+    android:id="@+id/Bouton_gh3"
+    android:layout_below="@id/Hard"
+    android:layout_toRightOf="@id/Bouton_gh2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/G3"
+    android:background="#ff0000"
+    android:onClick="onClick"
+    />
+
+
+<Button
+    android:id="@+id/Bouton_Return"
+    android:layout_alignParentBottom="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Return"
+    android:onClick="onClickReturn"
+    />
+</RelativeLayout>

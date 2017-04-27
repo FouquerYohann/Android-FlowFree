@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlowFreeUPMC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Exit">Exit</string>
+    <string name="Menu">Menu</string>
+    <string name="Réinitialiser">Reinit</string>
+    <string name="Bouton_1">Medium</string>
+    <string name="Bouton_3">Hard</string>
+    <string name="Bouton_2">Easy</string>
+    <string name="Score">Score :</string>
+    <string name="Next">Next</string>
+    <string name="Previous">Prev</string>
+    <string name="prenom">Votre prenom ici</string>
+    <string name="Submit">Submit</string>
+    <string name="Meilleur_score">Meilleur score:</string>
+    <string name="Easy">Easy</string>
+    <string name="Medium">Medium</string>
+    <string name="Hard">Hard</string>
+    <string name="G1">1</string>
+    <string name="Return">Menu</string>
+    <string name="G2">2</string>
+    <string name="G3">3</string>
+
+</resources>
